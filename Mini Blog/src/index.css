@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+nav {
+  padding: 20px;
+  background: #222;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}

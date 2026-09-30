@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+aside {
+  width: 220px;
+  padding: 25px;
+  background: #222;
+}
+
+aside a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+main {
+  flex: 1;
+  padding: 40px;
+  background: #f4f4f4;
+}
+
+.settings {
+  padding: 20px;
+}
+
+.dark {
+  background: #222;
+  color: white;
+  min-height: 250px;
+}

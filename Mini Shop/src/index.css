@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  padding: 20px;
+  background: #222;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button,
+.button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
