@@ -1,0 +1,75 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeeee;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container > h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.movie-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background: #f6f6f6;
+  border-radius: 10px;
+}
+
+.movie-card h2 {
+  margin: 0 0 8px;
+  font-size: 19px;
+}
+
+.movie-card p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.buttons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #444;
+}
