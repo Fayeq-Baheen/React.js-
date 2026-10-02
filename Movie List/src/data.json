@@ -1,0 +1,35 @@
+{
+  "movies": [
+    {
+      "name": "Dark Knight",
+      "year": 2012,
+      "description": "Lorem ipsum dolor sit amet.",
+      "id": "bcDbEn4ndLs"
+    },
+    {
+      "name": "Oppenheimer",
+      "year": 2023,
+      "description": "Lorem ipsum dolor sit amet.",
+      "id": "79ssjB7DOL4"
+    },
+    {
+      "name": "Inception",
+      "year": 2010,
+      "description": "Lorem ipsum dolor sit amet.",
+      "id": "earoQUqrHFI"
+    },
+    {
+      "name": "Thor Ragnorak",
+      "year": 2017,
+      "description": "Lorem ipsum dolor sit amet.",
+      "id": "KkYuGseO7KE"
+    },
+    {
+      "name": "Legend",
+      "year": "2015",
+      "description": "Lorem ipsum dolor sit amet.",
+      "id": "LQTgwRb88Sk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
