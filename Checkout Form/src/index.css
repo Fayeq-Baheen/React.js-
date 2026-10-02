@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f3f3f3;
+}
+
+.page {
+  width: 500px;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+
+button,
+.button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 7px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.error {
+  margin: 0;
+  color: red;
+  font-size: 14px;
+}
+
+.card {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.success {
+  text-align: center;
+}
